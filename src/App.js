@@ -4,7 +4,6 @@ import {useState} from 'react'
 import dayNightHandler from './colors.js'
 
 function Header (props) {
-  console.log("props",props)
   return <header>
   <h1><a href="/" onClick={(event)=>{
     event.preventDefault();
